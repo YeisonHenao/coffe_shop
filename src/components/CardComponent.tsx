@@ -8,7 +8,7 @@ interface CardProps {
 
 const CardComponent: React.FC<CardProps> = ({data}) => {
   return(
-    <div className="card">
+    <div className="card" id={data.id.toString()}>
       <div className="row g-0">
         {/* Imagen en el lado izquierdo */}
         <div className="col-md-4">

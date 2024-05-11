@@ -3,7 +3,7 @@ function NavBarComponent() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand mx-auto" href="#">
-          Título Centrado
+          Coffe Shop
         </a>
         <button
           className="navbar-toggler"
