@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import * as instance from './repository/coffeRepository'
-import NavBarComponent from "./components/NavBarComponent"
-import Product from "./model/product"
-import CardComponent from "./components/CardComponent"
+import * as instance from '../../repository/coffeRepository'
+import NavBarComponent from "../../components/NavBarComponent"
+import Product from "../../model/product"
+import CardComponent from "../../components/CardComponent"
 
 function App() {
   const [ products, setProducts ] = useState<Product[]>([])
