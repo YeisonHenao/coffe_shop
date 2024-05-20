@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function NavBarComponent() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,19 +21,19 @@ function NavBarComponent() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Enlace 1
-              </a>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Enlace 2
-              </a>
+              <Link className="nav-link" to="/products">
+                Products
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Enlace 3
-              </a>
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
             </li>
           </ul>
         </div>
